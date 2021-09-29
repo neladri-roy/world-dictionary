@@ -1,0 +1,55 @@
+.meanings{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    height: 55vh;
+    border: 10px solid rgb(105,105,105);
+    border-radius: 10px;
+    padding: 10px 20px;
+    overflow-x: hidden;
+    margin: 20px 0px;
+}
+
+.audio_src{
+  
+    width: 80%;
+    margin: 0px auto ;
+    
+}
+
+.subTitle{
+    font-size: 2vw;
+    font-family: 'Montserrat','sans-serif';
+}
+
+@media(max-width:900px){
+    .meanings{
+        height: 60vh;
+        overflow-x: hidden;
+        overflow:scroll;
+        margin: 10px;
+    }
+    .subTitle{
+        font-size: 4vw;
+        font-family: 'Montserrat','sans-serif';
+    }
+}
+
+
+.singleMean{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    background-color: rgb(40, 44, 52);;
+    color: white;
+    font-family: 'Montserrat','sans-serif';
+}
+
+
+.singleMean:hover{
+  color: #8ab4f8;
+}
